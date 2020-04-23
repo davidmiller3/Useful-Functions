@@ -9,6 +9,7 @@ from helperFunctions import *
 
 def lmDDOFit(xdata, ydata, params, ctr_range = 1.2, amp_range = 100 , sig_range= 100, weightexponential = 0):    
     
+    
     x = xdata
     y = ydata
 #Define a linear model and a Damped Oscillator Model    
